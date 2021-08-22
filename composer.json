@@ -1,10 +1,17 @@
 {
     "name": "uniter1/uniter1-package",
-    "type": "project",
+    "homepage": "https://bitbucket.org/afft0/uniter1-package",
+    "license": "MIT",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "uniter1",
+        "uniter1-package"
+    ],
     "version": "0.1",
     "autoload": {
         "psr-4": {
-            "Uniter1\\": "src/"
+            "Uniter1\\Uniter1Package\\": "src/"
         }
     },
     "authors": [

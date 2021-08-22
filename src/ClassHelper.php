@@ -1,6 +1,6 @@
 <?php
 
-namespace Uniter1;
+namespace Uniter1\Uniter1Package;
 
 class ClassHelper
 {
