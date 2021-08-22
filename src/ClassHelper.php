@@ -9,7 +9,7 @@ class ClassHelper
         $classNameExploded = explode('\\', $fullyQualifiedClassName);
         $className = array_pop($classNameExploded);
 
-        $loader = require './vendor/autoload.php';
+        $loader = require 'vendor/autoload.php';
         $classFilePath = $loader->findFile($fullyQualifiedClassName);
 
         $classBody = file_get_contents($classFilePath);
