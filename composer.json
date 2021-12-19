@@ -8,7 +8,6 @@
         "php-uniter",
         "php-uniter-assistant"
     ],
-    "version": "0.5",
     "autoload": {
         "psr-4": {
             "PhpUniter\\PhpUniterPackage\\": "src/",
@@ -30,8 +29,8 @@
         "vimeo/psalm": "4.9.2"
     },
     "scripts": {
-        "test": "php ./vendor/bin/phpunit",
         "php-cs-fixer": "php ./vendor/bin/php-cs-fixer  fix --config=.php_cs.dist ./",
-        "psalm": "php ./vendor/bin/psalm -c psalm.xml"
+        "psalm": "php ./vendor/bin/psalm -c psalm.xml",
+        "test": "php ./vendor/bin/phpunit"
     }
 }
